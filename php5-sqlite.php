@@ -68,7 +68,7 @@ class Contador
 
     public function  __destruct()
     {
-        $banco->close();
+        $this->banco->close();
     }
 }
 
