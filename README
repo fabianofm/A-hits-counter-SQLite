@@ -1,0 +1,3 @@
+SQLite3.
+Um exemplo simples de contador utilizando o SQLite.
+Classe 'Contador', que cria a base, atualiza e exibe o resultado de visitas na tela. SQLite3::version. (PHP 5 >= 5.3.0) 
