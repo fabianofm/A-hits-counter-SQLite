@@ -40,7 +40,7 @@ class Contador
         // Leia o comentário do método 'exibirValor()'
         if(!self::exibirValor()){
             // Cria a tabela
-            $this->banco->exec('CREATE TABLE contador (valor INTEGER )');
+            $this->banco->exec('CREATE TABLE contador (valor NUMERIC )');
             $this->banco->exec('INSERT INTO contador (valor) VALUES (0)');
         }
     }
